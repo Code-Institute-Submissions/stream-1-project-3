@@ -1,0 +1,246 @@
+/*  Pre-made CSS  */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.full-band {
+    height: 100vh;
+    background: url('../assets/monkees.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .95);
+    border: 0;
+    border-radius: 0; /* My code */
+    color: white;
+}
+
+/* Landing page text */
+
+.landing-highlight {
+    background-color: transparent;
+    color: white;
+}
+
+.landing-highlight h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0; /* My code */
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/* Alert */
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+/* songs */
+
+.songs .page-header {
+    margin-bottom: 25px;
+}
+
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+/*  End of pre-built CSS  */
+
+
+
+
+/*  New CSS  */
+
+.navbar-menu{
+    display: none;
+}
+
+@media(min-width:590px){
+    .navbar-menu{
+        display: block;
+    }
+    
+    .navbar-dropdown{
+        display: none;
+    }
+}
+
+.fa-2x{
+    float: right;
+    padding: 11px 1px 11px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.fa-2x:hover{
+    color: #6b6b6b;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #232323;
+    min-width: 160px;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar-dropdown:hover .dropdown-menu{
+    display: block;
+    left: 0;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 500;
+    padding: 15px 0 15px 10px;
+    font-size: large;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.charcoal{
+    background-color: #3a3a3a;
+}
+
+.navbar-header{
+    float: left;
+    margin-right: 20px;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    margin-right: 30px
+}
