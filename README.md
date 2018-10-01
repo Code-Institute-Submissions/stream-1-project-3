@@ -1,4 +1,4 @@
-# Stream 1 Project | Frank Value and the Fall Session
+# Stream 1 Project | The Monkees
 
 One or two paragraphs providing an overview of your project.
 
@@ -32,16 +32,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - [BootStrap](https://github.com/twbs/bootstrap/tree/v3.3.7)
     - Used for rapid creation of a default styled layout.
-- [Fotor](https://www.fotor.com/app.html#/collage/f243e8e0-c3d4-11e8-8828-41a4feb4aaf8/stitching)
-    - The background image used on the landing page would have been stitched together using the photos of the band members provided by the band. Given these were not provided, I instead used...
-- [ShutterStock](https://www.shutterstock.com)
-    - ShutterStock was used to grab a generic band photo for the project.
-
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Fontawesome](https://fontawesome.com/)
+    - Used to display custom eye-catching icons.
 
 
 ## Testing
