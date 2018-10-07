@@ -177,7 +177,7 @@ body {
     display: none;
 }
 
-@media(min-width:590px){
+@media(min-width:770px){
     .navbar-menu{
         display: block;
     }
@@ -227,12 +227,16 @@ body {
     font-size: large;
 }
 
+.dropdown-menu a:nth-child(even) {
+  background: #3a3a3a;
+}
+
 .dropdown-menu a:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
-.charcoal{
-    background-color: #3a3a3a;
+.can-touch .dropdown-menu a:hover{
+    display: none;
 }
 
 .navbar-header{
@@ -243,4 +247,47 @@ body {
 .navbar-default .navbar-brand{
     color: white;
     margin-right: 30px
+}
+
+.can-touch .navbar-default .navbar-brand:hover{
+    color: white;
+}
+
+.video-media{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 20px;
+}
+
+@media(min-width:900px){
+    .video-media{
+        height: 360px;
+    }
+}
+
+.audio-content{
+    margin-bottom: 10px;
+}
+
+.repertoire{
+    height: 830px;
+    text-align: center;
+}
+
+.song-list{
+    height: 772px;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.song-list ul{
+    list-style: none;
+}
+
+.song-list ul li{
+    font-size: 1.4em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    border-top: solid #a6a6a6 0.5px;
 }
