@@ -15,15 +15,22 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+1. Navbar at top of screen.
+    - The navbar is fixed in position to be always visible, since the links scroll the existing page as opposed to opening new ones. It has functionality to become a dropdown on smaller screen sizes.
+2. Smart hover JavaScript
+    - This piece of JavaScript is copied from javascriptkit.com, see the smart-hover.js file for the full url and citation. This clever function gets the current input type of the device being used (either touch or direct input) and prevents the hover css state if the input is touch.
+3. Meet the Band
+    - This section introduces users to the band members by displaying a picture, their name, a little background info and the instrument they mainly play.
+4. Song List
+    - This section uses iframe tags for a video and audio tags for several sample songs the band requested I put on their site. Along with the full repertoire of their music, this allows users to have a teaser of what their style is and the kind of songs they sing. The full repertoire is partially hidden in a scrollable box to prevent the page being too long.
+5. Booking section
+    - Their are two forms in this section as not everyone will be looking to book the Monkees for a wedding, christmas party or festival. Requests for information that is not displayed on the site should be possible to best take advantage of fan interaction.
+6. Coming soon section
+    - The four sections are those that I believe to be most useful and important to the band, as these can be changed easily to add or remove content without overloading users with information. These parts are probably the most versatile from the bands perspective, as the small size ensures they do not need lots of information to fill the space, making them perfect for teasing new material and features.
+7. Fontawesome icons
+    - The use of fontawesome icons was made to add a positive user experience by reinforcing what the different sections they are associated with are for (music notes for songs, calendar for bookings, microphone for gigs, etc.)
 
 ### Features Left to Implement
 - Another feature idea
@@ -34,6 +41,8 @@ In addition, you may also use this section to discuss plans for additional featu
     - Used for rapid creation of a default styled layout.
 - [Fontawesome](https://fontawesome.com/)
     - Used to display custom eye-catching icons.
+- [Smart Hover](http://www.javascriptkit.com/dhtmltutors/sticky-hover-issue-solutions.shtml)
+    - Used to prevent the hover css state on touch devices.
 
 ## Testing
 
@@ -70,10 +79,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The background information for the band members was pulled from their respective wikipedia pages:
+    - [Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+    - [Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith)
+    - [Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz)
+    - [Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork)
+- The Full Repertoire was copied from a [wikipedia page](https://en.wikipedia.org/wiki/List_of_songs_recorded_by_the_Monkees) that had compiled all of the songs.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from a [GitHub Repo](https://github.com/Code-Institute-Org/project-assets) set up specifically for this project.
+- The video used on this site would have been from the aforementioned [GitHub Repo](https://github.com/Code-Institute-Org/project-assets), but due to issues with the functionality I opted to use the version uploaded to [YouTube](https://www.youtube.com/embed/xvqeSJlgaNk?t=20&autoplay=0&showinfo=0) instead.
 
 ### Acknowledgements
 
