@@ -94,9 +94,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 I received inspiration for this project from the following sources:
 - [Hullabaloo](https://hullabaloo-uk.com/index.aspx)
-    - One of my favourite bands, theirs was the first website I thought to check when I saw the brief. The simple design of their site and the sticky navbar at the top of the pages influenced my decision in those areas.
+    - One of my favourite bands, theirs was the first website I thought to check when I saw the brief. The simple design of their site and the sticky navbar at the top of the pages influenced my decisions in those areas.
 - [Bands for Hire](https://www.bandsforhire.net/function-bands/item/289-the-rockin-rhythms)
     - Most of the inspiration came from this website. The combination of sufficient necessary information, compact and simplistic design and reliable functionality made me think this was the ideal site to compare my own to.
 - [Whiskey Drop](https://github.com/Code-Institute-Solutions/BootstrapLandingPage)
-    - I eventually settled on the design from this working example as my basic layout. A large portion of the CSS used in my own project is directly copied from Timmy O'Mahoney's github page (see the notes on my CSS page for details). I also copied over the basic html layout before changing all the content and most of the functionality.
+    - I eventually settled on the design from this working example as my basic layout. A large portion of the CSS used in my own project is directly copied from Timmy O'Mahoney's github page (see the notes on my style.css page for details). I also copied over the basic html layout before changing all of the content and most of the functionality.
     - I felt this particular example code was what I wanted to use for my project as it held a good combination of the elements that I liked most about the two other inspirations mentioned previously. I reasoned that using this pre-prepared code and properly crediting it would be much more efficient than creating my own from scratch.
