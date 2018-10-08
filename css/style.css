@@ -235,10 +235,6 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.can-touch .dropdown-menu a:hover{
-    display: none;
-}
-
 .navbar-header{
     float: left;
     margin-right: 20px;
@@ -266,7 +262,8 @@ body {
 }
 
 .audio-content{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .repertoire{
@@ -290,4 +287,18 @@ body {
     padding-bottom: 3px;
     padding-left: 5px;
     border-top: solid #a6a6a6 0.5px;
+}
+
+.band-member{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.band-member img{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.band-member p{
+    text-align: left;
 }
