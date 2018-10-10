@@ -277,7 +277,7 @@ body {
     text-align: left;
 }
 
-.song-list ul{
+ul{
     list-style: none;
 }
 
@@ -301,4 +301,9 @@ body {
 
 .band-member p{
     text-align: left;
+}
+
+input{
+    color: black;
+    width: 100%;
 }
