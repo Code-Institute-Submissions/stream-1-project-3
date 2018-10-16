@@ -8,7 +8,7 @@ body {
 /* Containers */
 
 .container-wrapper--red {
-    background-color: #bb4228;
+    background-color: #bb4228; /* Changed colour from original */
     color: white;
 }
 
@@ -88,46 +88,6 @@ body {
     width: 35px;
 }
 
-/* Buttons */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-/* Alert */
-
-.alert-container .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
-
 /* Page Headers */
 
 .page-header {
@@ -150,23 +110,6 @@ body {
     margin-bottom: 40px;
 }
 
-.feature .glyphicon {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-
 /*  End of pre-built CSS  */
 
 
@@ -174,6 +117,10 @@ body {
 
 /*  New CSS  */
 
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Navbar */
 
