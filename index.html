@@ -14,25 +14,27 @@
 	<body>
     <header class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#top" class="navbar-brand">The Monkees</a>
-            </div>
-            <div class="navbar-header navbar-menu">
-                <a href="#band" class="navbar-brand">Meet the Band</a>
-                <a href="#songs" class="navbar-brand">Song List</a>
-                <a href="#booking" class="navbar-brand">Booking</a>
-                <a href="#coming-soon" class="navbar-brand">Coming Soon</a>
-            </div>
-            <div class="navbar-dropdown">
-				<i class="fa fa-bars fa-2x">
-					<div class="dropdown-menu">
-						<a href="#top">Home</a>
-						<a href="#band">Meet the Band</a>
-						<a href="#songs">Song List</a>
-						<a href="#booking">Booking</a>
-						<a href="#coming-soon">Coming Soon</a>
-					</div>
-				</i>
+            <div class="col-xs-12 navbar-limiter">
+                <div class="navbar-header">
+                    <a href="#top" class="navbar-brand">The Monkees</a>
+                </div>
+                <div class="navbar-header navbar-menu">
+                    <a href="#band" class="navbar-brand">Meet the Band</a>
+                    <a href="#songs" class="navbar-brand">Song List</a>
+                    <a href="#booking" class="navbar-brand">Booking</a>
+                    <a href="#coming-soon" class="navbar-brand">Coming Soon</a>
+                </div>
+                <div class="navbar-dropdown">
+			    	<i class="fa fa-bars fa-2x">
+			    		<div class="dropdown-menu">
+			    			<a href="#top">Home</a>
+			    			<a href="#band">Meet the Band</a>
+			    			<a href="#songs">Song List</a>
+			    			<a href="#booking">Booking</a>
+			    			<a href="#coming-soon">Coming Soon</a>
+			    		</div>
+			    	</i>
+			    </div>
 			</div>
         </div>
     </header>
@@ -117,28 +119,28 @@
                             <div class="audio-content">
                                 <h3>Clarksville</h3>
                                 <audio controls>
-                                    <source src="Clarksville.mp3" type="audio/mp3">
+                                    <source src="assets/Clarksville.mp3" type="audio/mpeg">
                                     Your browser does not support HTML5's audio tags.
                                 </audio>
                             </div>
                             <div class="audio-content">
                                 <h3>Daydream Believer</h3>
                                 <audio controls>
-                                    <source src="DaydreamBeliever.mp3" type="audio/mp3">
+                                    <source src="assets/DaydreamBeliever.mp3" type="audio/mpeg">
                                     Your browser does not support HTML5's audio tags.
                                 </audio>
                             </div>
                             <div class="audio-content">
                                 <h3>I'm A Believer</h3>
                                 <audio controls>
-                                    <source src="ImABeliever.mp3" type="audio/mp3">
+                                    <source src="assets/ImABeliever.mp3" type="audio/mpeg">
                                     Your browser does not support HTML5's audio tags.
                                 </audio>
                             </div>
                             <div class="audio-content">
                                 <h3>Stepping Stone</h3>
                                 <audio controls>
-                                    <source src="SteppingStone.mp3" type="audio/mp3">
+                                    <source src="assets/SteppingStone.mp3" type="audio/mpeg">
                                     Your browser does not support HTML5's audio tags.
                                 </audio>
                             </div>
@@ -438,7 +440,7 @@
                     <div class="col-xs-12 col-md-6">
                         <div class="enquiry">
                             <h3><span class="fa fa-question"></span> General Enquiry Form</h3>
-                            <form method="post" name="enquiry form" id="enquiry-form">
+                            <form method="post" name="enquiry-form" id="enquiry-form">
                                 <div class="row">
                                     <div class="col-xs-4"><label for="name">Name:</label></div>
                                     <div class="col-xs-8"><input type="text" name="name" placeholder="*Name" required/></div>
@@ -455,7 +457,6 @@
                                     <div class="col-xs-push-4 col-xs-8"><input type="submit" class="submit" value="Submit Enquiry" /></div>
                                 </div>
                             </form>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -519,7 +520,7 @@
     <div class="modal fade" id="booking-submission" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Booking complete</h4>
                 </div>
@@ -530,7 +531,7 @@
     <div class="modal fade" id="enquiry-submission" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Enquiry sent</h4>
                 </div>
@@ -539,6 +540,8 @@
     </div>
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/smart-hover.js"></script>
 <script type="text/javascript" src="js/form-submit-success.js"></script>
 </html>
