@@ -33,7 +33,7 @@ This section is also where you would share links to any wireframes, mockups, dia
     - The use of fontawesome icons was made to add a positive user experience by reinforcing what the different sections they are associated with are for (music notes for songs, calendar for bookings, microphone for gigs, etc.)
 
 ### Features Left to Implement
-- Another feature idea
+- Functionality that takes the values input to the form(s) and puts it on an email to the band or their manager, then sends the email.
 
 ## Technologies Used
 
@@ -43,6 +43,8 @@ This section is also where you would share links to any wireframes, mockups, dia
     - Used to display custom eye-catching icons.
 - [Smart Hover](http://www.javascriptkit.com/dhtmltutors/sticky-hover-issue-solutions.shtml)
     - Used to prevent the hover css state on touch devices.
+- [Form Submit Modal](https://codepen.io/hanapiers/pen/EXNrGP)
+    - Used to pop-up a confirmation modal on submitting either of the forms.
 
 ## Testing
 
@@ -77,6 +79,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+
+- Smart hover JavaScript
+    - Taken from http://www.javascriptkit.com/dhtmltutors/sticky-hover-issue-solutions.shtml. All credit and rights to this code are property of the designer.
+- Modal pop-up on form submit JavaScript
+    - Taken from https://codepen.io/hanapiers/pen/EXNrGP. All credit and rights to this code are property of the designer, Hana Piers.
 
 ### Content
 - The background information for the band members was pulled from their respective wikipedia pages:
