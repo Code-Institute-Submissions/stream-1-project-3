@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* Containers */
 
 .container-wrapper--red {
-    background-color: #f05f40;
+    background-color: #bb4228;
     color: white;
 }
 
@@ -180,7 +181,7 @@ body {
     display: none;
 }
 
-@media(min-width:770px){
+@media(min-width:800px){
     .navbar-menu{
         display: block;
     }
@@ -188,6 +189,12 @@ body {
     .navbar-dropdown{
         display: none;
     }
+}
+
+.navbar-limiter{
+    max-width: 1140px;
+    margin: auto auto;
+    float: none;
 }
 
 .fa-2x{
@@ -210,6 +217,7 @@ body {
     margin-top: 0;
     padding: 0;
     border: 0;
+    border-radius: 0;
 }
 
 .navbar-dropdown:hover .dropdown-menu{
