@@ -117,7 +117,7 @@ body {
 
 /*  New CSS  */
 
-a, a:hover{
+a, a:hover, a:active{
     text-decoration: none;
     color: inherit;
 }
