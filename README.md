@@ -1,17 +1,37 @@
-# Stream 1 Project | The Monkees
+# Stream 1 - User Centric Front End Development Milestone Project | The Monkees
 
-One or two paragraphs providing an overview of your project.
+The Monkees are a band that has a wealth of performing experience, and their website should demonstrate that same professionalism. What I have created in this project is a functional, easy to use website with all the necessary content and features a new or existing fan would need. From information about the band members (available through external links to their wiki pages) to music and video, a booking form to information about upcoming music and gigs, this is a one-stop-shop for anything Monkee related.
 
-Essentially, this part is your sales pitch.
- 
+The website uses a mobile-first approach to ensure it is easily accessible on any device, whilst a smart piece of JavaScript ensures that it will always respond appropriately, regardless of input.
+
+
 ## UX
- 
+
+Reading through the breif for this project, I devised the following requirements and features as follows:
+### Necessary Content/Functionality
+1. The site must contain audio and video from the band's back catalog and;
+2. The site must contain the ability to add/display new material as it becomes available and;
+3. The site must contain a callout highlighting the band's ability to perform private events.
+
+### Important Content/Functionality
+1. The band has provided audio and video files, so these must be present on the site in an easily accessible location and;
+2. Along with a callout regarding private events, there should be the ability to book said events and;
+3. The band want to add links to their social media, so there must be either a section or grayed-out icons to represent this and;
+4. The band declare the site should be for new and potential fans, and have provided images of the members of the band, so info about them should be easily available.
+
+As deduced from the above requirements, there are two main groups of people who will use this site:
+1. Long-time fans who have listened to and supported the band over an extended period of time and;
+2. People who have not heard of the Monkees before, or who have just been introduced to them.
+
+
+
+No wireframes or mockups were created during the design process, as the template mentioned later on was used instead.
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
