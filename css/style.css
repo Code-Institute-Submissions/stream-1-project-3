@@ -128,7 +128,7 @@ a, a:hover, a:active{
     display: none;
 }
 
-@media(min-width:800px){
+@media(min-width:820px){
     .navbar-menu{
         display: block;
     }
