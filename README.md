@@ -41,15 +41,17 @@ In particular, as part of this section we recommend that you provide a list of U
     - The navbar is fixed in position to be always visible, since the links scroll the existing page as opposed to opening new ones. It has functionality to become a dropdown on smaller screen sizes.
 2. Smart hover JavaScript
     - This piece of JavaScript is copied from javascriptkit.com, see the smart-hover.js file for the full url and citation. This clever function gets the current input type of the device being used (either touch or direct input) and prevents the hover css state if the input is touch.
-3. Meet the Band
+3. Smooth scroll JavaScript
+    - Added to allow smooth scrolling on links to section of the page across all browsers.
+4. Meet the Band
     - This section introduces users to the band members by displaying a picture, their name, a little background info and the instrument they mainly play.
-4. Song List
+5. Song List
     - This section uses iframe tags for a video and audio tags for several sample songs the band requested I put on their site. Along with the full repertoire of their music, this allows users to have a teaser of what their style is and the kind of songs they sing. The full repertoire is partially hidden in a scrollable box to prevent the page being too long.
-5. Booking section
+6. Booking section
     - Their are two forms in this section as not everyone will be looking to book the Monkees for a wedding, christmas party or festival. Requests for information that is not displayed on the site should be possible to best take advantage of fan interaction.
-6. Coming soon section
+7. Coming soon section
     - The four sections are those that I believe to be most useful and important to the band, as these can be changed easily to add or remove content without overloading users with information. These parts are probably the most versatile from the bands perspective, as the small size ensures they do not need lots of information to fill the space, making them perfect for teasing new material and features.
-7. Fontawesome icons
+8. Fontawesome icons
     - The use of fontawesome icons was made to add a positive user experience by reinforcing what the different sections they are associated with are for (music notes for songs, calendar for bookings, microphone for gigs, etc.)
 
 ### Features Left to Implement
