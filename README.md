@@ -127,7 +127,8 @@ I would also have liked to have done the tests mentioned above on both Safari an
 
 ## Deployment
 
-I deployed this porject to [GitHub](https://github.com/), as it is a platform I am familiar with and has the added bonus of being able to host my code in webpage format through its [GitHub Pages](https://pages.github.com/).
+I deployed this project to [GitHub](https://github.com/), as it is a platform I am familiar with and has the added bonus of being able to host my code in webpage format through its [GitHub Pages](https://pages.github.com/).
+The deployed version has not been separated from the development version, as I used the repository and GitHub Pages' hosting ability to test functionality throughout the project.
 
 I used the inbuilt git editor within [Cloud9](https://en.wikipedia.org/wiki/Cloud9_IDE) to push my code to GitHub. Once I had reached a stage where I believed it good enough to display, I went to the settings tab within my GitHub repository for the project and published it to GitHub Pages.
 
